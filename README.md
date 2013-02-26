@@ -1,6 +1,7 @@
 JustMath.js
 ===========
-An implementation of two dimensional vectors including a rich toolset for vector operations.
+An implementation of two dimensional vector math including a rich toolset for vector operations.
+It's also the math library behind [eSoccer](http://www.esoccer.me).
 
 JustMath
 --------

@@ -2,8 +2,7 @@
 <head>
 <title>dcodeIO.JustMath.Vec2 Examples &amp; Tests</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="https://raw.github.com/dcodeIO/JustMath.js/master/JustMath.js"></script>
+<script type="text/javascript" src="https://raw.github.com/dcodeIO/JustMath.js/master/JustMath.min.js"></script>
 <style type="text/css">
     body { text-align: center; }
     div.vis { padding: 20px; clear: both; width: 640px; margin: auto; text-align: left; }
@@ -75,7 +74,7 @@ function visualize() {
         ctx.stroke();
     }
     e.appendChild(cv);
-    $('#res').append(e);
+    document.getElementById("res").appendChild(e);
 }
 
 (function() {

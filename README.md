@@ -28,7 +28,7 @@ JustMath.Vec2
 Features
 --------
 * [CommonJS](http://www.commonjs.org/) compatible
-* [http://requirejs.org/RequireJS](http://requirejs.org/)/AMD compatible
+* [RequireJS](http://requirejs.org/)/AMD compatible
 * Shim compatible
 * [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible
 

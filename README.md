@@ -16,8 +16,8 @@ JustMath.Vec2
 * Direct modification through Vec2#x and Vec2#y, also provides getters (Vec2#getX, Vec2#getY)
 * Vector addition (Vec2#add), subtraction (Vec2#sub) and multiplication (Vec2#dot)
 * Vector orthogonality (Vec2#ort)
-* Vector normalization (Vec2#norm), scaling (Vec2#scale), inversion (Vec2#inv) and magnitude (Vec2#mag/magSq) calculation
-* Vector-Vector distances (Vec2#dist)
+* Vector normalization (Vec2#norm), scaling (Vec2#scale), inversion (Vec2#inv) and magnitude (Vec2#mag, Vec2#magSq) calculation
+* Vector-Vector distances (Vec2#dist, Vec2#distSq)
 * Vector rotation (Vec2#rot) and direction calculation (Vec2#dir)
 * Vector projection (Vec2#project) and rejection (Vec2#reject)
 * Vector reflection (Vec2#reflect), also with component-wise scaling (projected and rejected component) (Vec2#reflectAndScale)

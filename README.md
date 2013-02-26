@@ -30,8 +30,8 @@ Features
 * [CommonJS](http://www.commonjs.org/) compatible
 * [RequireJS](http://requirejs.org/)/AMD compatible
 * Shim compatible
-* [node.js](http://nodejs.org) compatible
-* [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible
+* [node.js](http://nodejs.org) compatible, also available via [npm](https://npmjs.org/package/justmath)
+* [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible (fully annotated)
 
 Examples & Tests
 ----------------

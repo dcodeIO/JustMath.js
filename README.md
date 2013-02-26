@@ -1,8 +1,8 @@
 JustMath.js - 2D Vector Math
 ============================
 An implementation of two dimensional vector math including a rich toolset for vector operations. It's also the math
-library behind [eSoccer](http://www.esoccer.me), a cross-platform multiplayer HTML5 game developed at University of
-Applied Sciences Bonn.
+library behind [eSoccer](http://www.esoccer.me), a cross-platform multiplayer HTML5 game developed at [University of
+Applied Sciences Bonn](http://www.h-brs.de).
 
 JustMath
 --------

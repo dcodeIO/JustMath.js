@@ -1,0 +1,20 @@
+{
+    "name": "justmath",
+    "version": "1.0.0",
+    "author": "Daniel Wirtz <dcode@dcode.io>",
+    "description": "An implementation of two dimensional vector math including a rich toolset for vector operations.",
+    "contributors": [
+        { "name": "Daniel Wirtz", "email": "dcode@dcode.io" }
+    ],
+    "main": "JustMath.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcodeIO/JustMath.js.git"
+    },
+    "keywords": ["math"],
+    "dependencies": {},
+    "license": "Apache 2.0",
+    "engines": {
+        "node": ">=0.6"
+    }
+}

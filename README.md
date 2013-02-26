@@ -7,24 +7,26 @@ Applied Sciences Bonn](http://www.h-brs.de).
 JustMath
 --------
 * Augments core Math
-* Allows replacement of core Math methods
-* Adds some convenience methods
+* Allows replacement of all methods (e.g. custom implementations of JustMath.sqrt)
+* Adds some convenience methods (JustMath.sq, JustMath.cot)
 
 JustMath.Vec2
 -------------
-* Vector instantiation and cloning
-* Vector addition, subtraction and multiplication (dot product)
-* Vector orthogonality
-* Vector normalization, scaling, inversion and magnitude calculation
-* Vector-Vector distances
-* Vector rotation and direction calculation
-* Vector projection and rejection
-* Vector reflection, also with component-wise scaling (projected and rejected component)
-* Vector interpolation
-* Vector containment in rectangle
-* [Vector,Vector] determinant calculation
-* Provides vector operation chaining
-* Small allocation footprint when using clone() wisely
+* Vector instantiation (new Vec2), cloning (Vec2#clone) and JSON export (Vec2#getXY)
+* Direct modification through Vec2#x and Vec2#y, also provides getters (Vec2#getX, Vec2#getY)
+* Vector addition (Vec2#add), subtraction (Vec2#sub) and multiplication (Vec2#dot)
+* Vector orthogonality (Vec2#ort)
+* Vector normalization (Vec2#norm), scaling (Vec2#scale), inversion (Vec2#inv) and magnitude (Vec2#mag/magSq) calculation
+* Vector-Vector distances (Vec2#dist)
+* Vector rotation (Vec2#rot) and direction calculation (Vec2#dir)
+* Vector projection (Vec2#project) and rejection (Vec2#reject)
+* Vector reflection (Vec2#reflect), also with component-wise scaling (projected and rejected component) (Vec2#reflectAndScale)
+* Vector interpolation (Vec2#lerp)
+* Vector containment in rectangle (Vec2#inRect)
+* [Vector,Vector] determinant calculation (Vec2.det)
+* Provides vector operation chaining (e.g. vector.clone().sub(otherVector).norm().project(normalVector)...)
+* Small allocation footprint when using Vec2#clone wisely
+* Accepts another Vec2 or plain X and Y coordinates as parameters where possible
 
 Features
 --------

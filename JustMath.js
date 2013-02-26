@@ -280,8 +280,8 @@ Vec2.prototype.getY = function() {
  */
 Vec2.prototype.getXY = function() {
     return {
-        x: this.x,
-        y: this.y
+        "x": this.x,
+        "y": this.y
     };
 };
 

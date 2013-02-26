@@ -37,11 +37,13 @@ Features
 * [node.js](http://nodejs.org) compatible, also available via [npm](https://npmjs.org/package/justmath) (npm install justmath)
 * [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible (fully annotated)
 * Fully documented ([jsdoc3](https://github.com/jsdoc3/jsdoc))
+* Zero dependencies
+* Small footprint
 
 Examples & Tests
 ----------------
 * [View](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html)
-* [View source](https://raw.github.com/dcodeIO/JustMath.js/master/examples/Vec2.html)
+* [View source](https://github.com/dcodeIO/JustMath.js/blob/master/examples/Vec2.html)
 
 License
 -------

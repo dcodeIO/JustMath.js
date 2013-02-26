@@ -24,6 +24,7 @@ JustMath.Vec2
 * Vector interpolation (Vec2#lerp)
 * Vector containment in rectangle (Vec2#inRect)
 * [Vector,Vector] determinant calculation (Vec2.det)
+* Provides Vector#toString and Vector#equals
 * Provides vector operation chaining (e.g. vector.clone().sub(otherVector).norm().project(normalVector)...)
 * Small allocation footprint when using Vec2#clone wisely
 * Accepts another Vec2 or plain X and Y coordinates as parameters where possible
@@ -35,6 +36,7 @@ Features
 * Shim compatible
 * [node.js](http://nodejs.org) compatible, also available via [npm](https://npmjs.org/package/justmath) (npm install justmath)
 * [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible (fully annotated)
+* Fully documented ([jsdoc3](https://github.com/jsdoc3/jsdoc))
 
 Examples & Tests
 ----------------

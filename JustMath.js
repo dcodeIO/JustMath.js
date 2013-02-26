@@ -17,7 +17,7 @@ limitations under the License.
 /**
  * @license JustMath.js (c) 2013 Daniel Wirtz <dcode@dcode.io>
  * Released under the Apache License, Version 2.0
- * see: http://dcode.io for details
+ * see: https://github.com/dcodeIO/JustMath.js for details
  */
 
 "use strict";

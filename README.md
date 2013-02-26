@@ -25,11 +25,12 @@ JustMath.Vec2
 * Provides vector operation chaining
 * Small allocation footprint when using clone() wisely
 
-Loading
--------
-* CommonJS compatible
-* RequireJS/AMD compatible
+Features
+--------
+* [CommonJS](http://www.commonjs.org/) compatible
+* [http://requirejs.org/RequireJS](http://requirejs.org/)/AMD compatible
 * Shim compatible
+* [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible
 
 Examples & Tests
 ----------------

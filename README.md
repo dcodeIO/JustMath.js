@@ -40,6 +40,10 @@ Features
 * Zero dependencies
 * Small footprint
 
+Documentation
+-------------
+* [View](http://htmlpreview.github.com/?http://github.com/dcodeIO/JustMath.js/master/docs/dcodeIO.JustMath.html)
+
 Examples & Tests
 ----------------
 * [View](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html)

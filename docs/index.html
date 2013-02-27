@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="scripts/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-esoccer.css">
+</head>
+
+<body>
+
+<div id="main">
+    
+    <h1 class="page-title">Index</h1>
+    
+    
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>JustMath.js - 2D Vector Math</h1>
+
+<p>An implementation of two dimensional vector math including a rich toolset for vector operations. It&#39;s also the math
+library behind <a href="http://www.esoccer.me">eSoccer</a>, a cross-platform multiplayer HTML5 game developed at <a href="http://www.h-brs.de">University of
+Applied Sciences Bonn</a>.</p>
+
+<h2>JustMath</h2>
+
+<ul><li>Augments core Math</li><li>Allows replacement of all methods (e.g. custom implementations of JustMath.sqrt)</li><li>Adds some convenience methods (JustMath.sq, JustMath.cot)</li></ul>
+
+<h2>JustMath.Vec2</h2>
+
+<ul><li>Vector instantiation (new Vec2), cloning (Vec2#clone) and JSON export (Vec2#getXY)</li><li>Direct modification through Vec2#x and Vec2#y, also provides getters (Vec2#getX, Vec2#getY)</li><li>Vector addition (Vec2#add), subtraction (Vec2#sub) and multiplication (Vec2#dot)</li><li>Vector orthogonality (Vec2#ort)</li><li>Vector normalization (Vec2#norm), scaling (Vec2#scale), inversion (Vec2#inv) and magnitude (Vec2#mag, Vec2#magSq) calculation</li><li>Vector-Vector distances (Vec2#dist, Vec2#distSq)</li><li>Vector rotation (Vec2#rot) and direction calculation (Vec2#dir)</li><li>Vector projection (Vec2#project) and rejection (Vec2#reject)</li><li>Vector reflection (Vec2#reflect), also with component-wise scaling (projected and rejected component) (Vec2#reflectAndScale)</li><li>Vector interpolation (Vec2#lerp)</li><li>Vector containment in rectangle (Vec2#inRect)</li><li>[Vector,Vector] determinant calculation (Vec2.det)</li><li>Provides Vector#toString and Vector#equals</li><li>Provides vector operation chaining (e.g. vector.clone().sub(otherVector).norm().project(normalVector)...)</li><li>Small allocation footprint when using Vec2#clone wisely</li><li>Accepts another Vec2 or plain X and Y coordinates as parameters where possible</li></ul>
+
+<h2>Features</h2>
+
+<ul><li><a href="http://www.commonjs.org/">CommonJS</a> compatible</li><li><a href="http://requirejs.org/">RequireJS</a>/AMD compatible</li><li>Shim compatible</li><li><a href="http://nodejs.org">node.js</a> compatible, also available via <a href="https://npmjs.org/package/justmath">npm</a> (npm install justmath)</li><li><a href="https://developers.google.com/closure/compiler/">Closure Compiler</a> ADVANCED_OPTIMIZATIONS compatible (fully annotated)</li><li>Fully documented (<a href="https://github.com/jsdoc3/jsdoc">jsdoc3</a>)</li><li>Zero dependencies</li><li>Small footprint</li></ul>
+
+<h2>Documentation</h2>
+
+<ul><li><a href="http://htmlpreview.github.com/?http://github.com/dcodeIO/JustMath.js/master/docs/dcodeIO.JustMath.html">View</a></li></ul>
+
+<h2>Examples &amp; Tests</h2>
+
+<ul><li><a href="http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html">View</a></li><li><a href="https://github.com/dcodeIO/JustMath.js/blob/master/examples/Vec2.html">View source</a></li></ul>
+
+<h2>License</h2>
+
+<p>Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0.html</p></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <nav-inner>
+        <h2><a href="index.html">Index</a></h2><h3>Modules</h3><ul><li><a href="module-dcodeIO.html">dcodeIO</a></li></ul><h3>Classes</h3><ul><li><a href="dcodeIO.JustMath.Vec2.html">Vec2</a></li></ul><h3>Namespaces</h3><ul><li><a href="dcodeIO.html">dcodeIO</a></li><li><a href="dcodeIO.JustMath.html">JustMath</a></li></ul>
+    </nav-inner>
+</nav>
+
+<br clear="both">
+
+<script> prettyPrint(); </script>
+</body>
+</html>

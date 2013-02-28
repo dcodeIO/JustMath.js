@@ -100,7 +100,8 @@ Documentation
 
 Examples & Tests
 ----------------
-* [View source](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/JustMath.Vec2.html)
+* [Run tests](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html) (requires working HTML5 Canvas)
+* [View source](https://github.com/dcodeIO/JustMath.js/blob/master/examples/Vec2.html)
 
 License
 -------

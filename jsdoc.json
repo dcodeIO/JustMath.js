@@ -3,11 +3,11 @@
         "allowUnknownTags": true
     },
     "source": {
-        "include": ["JustMath.js", "../dcodeIO.js"]
+        "include": ["JustMath.js"]
     },
     "opts": {
         "template": "templates/esoccer",
-        "destination": "./docs"
+        "destination": "docs"
     },
     "plugins": ["plugins/markdown"]
 }

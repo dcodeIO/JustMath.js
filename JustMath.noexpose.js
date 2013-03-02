@@ -32,7 +32,6 @@ limitations under the License.
      * „Nope, just Math.“
      * @exports JustMath
      * @namespace
-     * @expose
      */
     var JustMath = {};
     
@@ -42,7 +41,6 @@ limitations under the License.
      * Represents the ratio of the circumference of a circle to its diameter, specified by the constant, π.
      * @type {number}
      * @const
-     * @expose
      */
     JustMath.PI = Math.PI;
     
@@ -50,7 +48,6 @@ limitations under the License.
      * Respresents the square root of 2.
      * @type {number}
      * @const
-     * @expose
      */
     JustMath.SQRT2 = Math.SQRT2;
     
@@ -58,7 +55,6 @@ limitations under the License.
      * Respresents the square root of 1/2.
      * @type {number}
      * @const
-     * @expose
      */
     JustMath.SQRT1_2 = Math.SQRT1_2;
     
@@ -69,7 +65,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} Absolute value
-     * @expose
      */
     JustMath.abs = Math.abs;
     
@@ -79,7 +74,6 @@ limitations under the License.
      * @param {number} n Number
      * @param {number} m Number
      * @return {number} The lesser of the two specified numbers
-     * @expose
      */
     JustMath.min = Math.min;
     
@@ -89,7 +83,6 @@ limitations under the License.
      * @param {number} n Number
      * @param {number} m Number
      * @return {number} The bigger of the two specified numbers
-     * @expose
      */
     JustMath.max = Math.max;
     
@@ -98,7 +91,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} Floored value
-     * @expose
      */
     JustMath.floor = Math.floor;
     
@@ -107,7 +99,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} Ceiled value
-     * @expose
      */
     JustMath.ceil = Math.ceil;
     
@@ -116,7 +107,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} Rounded value
-     * @expose
      */
     JustMath.round = Math.round;
     
@@ -125,7 +115,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} Square root of the specified number
-     * @expose
      */
     JustMath.sqrt = Math.sqrt;
     
@@ -134,7 +123,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} The square of the specified number
-     * @expose
      */
     JustMath.sq = function(n) { return n*n; };
     
@@ -144,7 +132,6 @@ limitations under the License.
      * @param {number} n Number
      * @param {number} p Power
      * @return {number} The specified number raised to the specified power
-     * @expose
      */
     JustMath.pow = Math.pow;
     
@@ -153,7 +140,6 @@ limitations under the License.
      * @function
      * @param {number} a Angle
      * @return {number} Sine of the specified angle
-     * @expose
      */
     JustMath.sin = Math.sin;
     
@@ -162,7 +148,6 @@ limitations under the License.
      * @function
      * @param {number} a Angle
      * @return {number} Cosine of the specified angle
-     * @expose
      */
     JustMath.cos = Math.cos;
     
@@ -171,7 +156,6 @@ limitations under the License.
      * @function
      * @param {number} a Angle
      * @return {number} Tangent of the specified angle
-     * @expose
      */
     JustMath.tan = Math.tan;
     
@@ -180,7 +164,6 @@ limitations under the License.
      * @function
      * @param {number} a Angle
      * @return {number} Cotangent of the specified angle
-     * @expose
      */
     JustMath.cot = function(a) { return 1/JustMath.tan(a); };
     
@@ -189,7 +172,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} The angle whose sine is the specified number
-     * @expose
      */
     JustMath.asin = Math.asin;
     
@@ -198,7 +180,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} The angle whose cosine is the specified number
-     * @expose
      */
     JustMath.acos = Math.acos;
     
@@ -207,7 +188,6 @@ limitations under the License.
      * @function
      * @param {number} n Number
      * @return {number} The angle whose tangent is the specified number
-     * @expose
      */
     JustMath.atan = Math.atan;
     
@@ -217,7 +197,6 @@ limitations under the License.
      * @param {number} y Value
      * @param {number} x Value
      * @return {number} The angle whose tangent is the quotient of the two specified values
-     * @expose
      */
     JustMath.atan2 = Math.atan2;
     
@@ -225,7 +204,6 @@ limitations under the License.
      * Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).
      * @function
      * @return {number} Pseudo-random number between 0 (inclusive) and 1 (exclusive)
-     * @expose
      */
     JustMath.random = Math.random;
     
@@ -244,14 +222,12 @@ limitations under the License.
         /**
          * X coordinate.
          * @type {number}
-         * @expose
          */
         this.x = 0;
     
         /**
          * Y coordinate.
          * @type {number}
-         * @expose
          */
         this.y = 0;
     
@@ -267,7 +243,6 @@ limitations under the License.
     /**
      * Clones this Vec2.
      * @return {JustMath.Vec2} Cloned Vec2
-     * @expose
      */
     Vec2.prototype.clone = function() {
         return new Vec2(this);
@@ -277,14 +252,12 @@ limitations under the License.
      * Copies this Vec2. This is an alias of {@link JustMath.Vec2#clone}.
      * @function
      * @return {JustMath.Vec2} Copied Vec2
-     * @expose
      */
     Vec2.prototype.copy = Vec2.prototype.clone;
     
     /**
      * Gets the X coordinate of this Vec2.
      * @return {number} X coordinate
-     * @expose
      */
     Vec2.prototype.getX = function() {
         return this.x;
@@ -293,7 +266,6 @@ limitations under the License.
     /**
      * Gets the Y coordinate of this Vec2.
      * @return {number} Y coordinate
-     * @expose
      */
     Vec2.prototype.getY = function() {
         return this.y;
@@ -302,7 +274,6 @@ limitations under the License.
     /**
      * Gets the coordinate payload of this Vec2.
      * @return {{x: number, y: number}} Coordinate payload
-     * @expose
      */
     Vec2.prototype.getXY = function() {
         return {
@@ -316,7 +287,6 @@ limitations under the License.
      * @param {JustMath.Vec2|number} vOrX Other Vec2 or X coordinate
      * @param {number=} y Y coordinate if vOrX is X coordinate
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.set = function(vOrX, y) {
         if (arguments.length == 1) {
@@ -337,7 +307,6 @@ limitations under the License.
      * @param {JustMath.Vec2|number} vOrX Other Vec2 or X coordinate
      * @param {number=} y Y coordinate if vOrX is X coordinate
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.add = function(vOrX, y) {
         if (arguments.length == 1) {
@@ -355,7 +324,6 @@ limitations under the License.
      * @param {JustMath.Vec2|number} vOrX Other Vec2 or X coordinate
      * @param {number=} y Y coordinate if vOrX is X coordinate
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.sub = function(vOrX, y) {
         if (arguments.length == 1) {
@@ -371,7 +339,6 @@ limitations under the License.
     /**
      * Inverts this Vec2.
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.inv = function() {
         this.x = -this.x;
@@ -382,7 +349,6 @@ limitations under the License.
     /**
      * Makes this Vec2 an orthogonal of itself by setting x=-y and y=x.
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.ort = function() {
         return this.set(-this.y, this.x);
@@ -392,7 +358,6 @@ limitations under the License.
      * Scales this Vec2 by a factor.
      * @param {number} factor Scaling factor
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.scale = function(factor) {
         this.x *= factor;
@@ -404,7 +369,6 @@ limitations under the License.
      * Calculates the dot product of this and another Vec2.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {number} Dot product
-     * @expose
      */
     Vec2.prototype.dot = function(b) {
         return this.x * b.x + this.y * b.y;
@@ -413,7 +377,6 @@ limitations under the License.
     /**
      * Normalizes this Vec2.
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.norm = function() {
         var l = JustMath.sqrt(this.dot(this));
@@ -428,7 +391,6 @@ limitations under the License.
      * Calculates the squared distance between this and another Vec2.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {number} Squared distance
-     * @expose
      */
     Vec2.prototype.distSq = function(b) {
         var dx = this.x - b.x;
@@ -441,7 +403,6 @@ limitations under the License.
      * This operation requires a call to {@link JustMath.sqrt}.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {number} Distance
-     * @expose
      */
     Vec2.prototype.dist = function(b) {
         return JustMath.sqrt(this.distSq(b));
@@ -451,7 +412,6 @@ limitations under the License.
      * Calculates the direction of this Vec2.
      * This operation requires a call to {@link JustMath.atan2}.
      * @return {number} Direction in radians
-     * @expose
      */
     Vec2.prototype.dir = function() {
         return JustMath.atan2(this.y, this.x);
@@ -460,7 +420,6 @@ limitations under the License.
     /**
      * Calculates the squared magnitude of this Vec2.
      * @return {number} Squared magnitude
-     * @expose
      */
     Vec2.prototype.magSq = function() {
         return this.dot(this);
@@ -470,7 +429,6 @@ limitations under the License.
      * Calculates the magnitude of this Vec2.
      * This operation requires a call to {@link JustMath.sqrt}.
      * @return {number} Magnitude
-     * @expose
      */
     Vec2.prototype.mag = function() {
         return JustMath.sqrt(this.magSq());
@@ -481,7 +439,6 @@ limitations under the License.
      * This operation requires a call to {@link JustMath.sin} and {@link JustMath.cos}.
      * @param {number} theta Rotation angle in radians
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.rotate = function(theta) {
         var sin = JustMath.sin(theta);
@@ -496,7 +453,6 @@ limitations under the License.
      * Projects this Vec2 on another Vec2.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.project = function(b) {
         return this.set(b.clone().scale(this.dot(b) / b.dot(b)));
@@ -506,7 +462,6 @@ limitations under the License.
      * Rejects this Vec2 from another Vec2.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.reject = function(b) {
         return this.sub(this.clone().project(b));
@@ -516,7 +471,6 @@ limitations under the License.
      * Reflects this Vec2 from another Vec2.
      * @param {JustMath.Vec2} n Vector to reflect from
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.reflect = function(n) {
         n = n.clone().norm();
@@ -529,7 +483,6 @@ limitations under the License.
      * @param {number} projectFactor Projected component factor
      * @param {number} rejectFactor Rejected component factor
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.reflectAndScale = function(n, projectFactor, rejectFactor) {
         var p = n.clone().norm() // Projection direction
@@ -542,7 +495,6 @@ limitations under the License.
      * @param {JustMath.Vec2} p Other point
      * @param {number} percent Percentage
      * @return {JustMath.Vec2} This Vec2
-     * @expose
      */
     Vec2.prototype.lerp = function(p, percent) {
         return this.add(p.clone().sub(this).scale(percent));
@@ -553,7 +505,6 @@ limitations under the License.
      * @param {JustMath.Vec2} p1
      * @param {JustMath.Vec2} p2
      * @return {boolean} true if contained, else false
-     * @expose
      */
     Vec2.prototype.inRect = function(p1, p2) {
         return ((p1.x <= this.x && this.x <= p2.x) || (p1.x >= this.x && this.x >= p2.x)) &&
@@ -564,7 +515,6 @@ limitations under the License.
      * Tests if this Vec2 equals another Vec2.
      * @param {JustMath.Vec2} b Other Vec2
      * @return {boolean} true if equal, false otherwise
-     * @expose
      */
     Vec2.prototype.equals = function (b) {
         if (!b || !(b instanceof Vec2)) return false;
@@ -574,7 +524,6 @@ limitations under the License.
     /**
      * Gets a string representation of this Vec2.
      * @return {string} String representation as of "Vec2(x/y)"
-     * @expose
      */
     Vec2.prototype.toString = function () {
         return "Vec2("+this.x+"/"+this.y+")";
@@ -585,15 +534,13 @@ limitations under the License.
      * @param {JustMath.Vec2} v1 Vector 1
      * @param {JustMath.Vec2} v2 Vector 2
      * @return {number} Determinant of the matrix [v1,v2]
-     * @expose
      */
     Vec2.det = function(v1, v2) {
         return v1.x*v2.y - v2.x*v1.y;
     };
-
+    
     /**
-     * @alias JustMath.Vec2
-     * @expose
+     * @exports JustMath.Vec2
      **/
     JustMath.Vec2 = Vec2;
     
@@ -604,10 +551,8 @@ limitations under the License.
         define([], function() { return JustMath; });
     } else { // Shim
         if (typeof global["dcodeIO"] == "undefined") {
-            /** @expose */
             global["dcodeIO"] = {};
         }
-        /** @expose */
         global["dcodeIO"]["JustMath"] = JustMath;
     }
     

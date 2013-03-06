@@ -11,6 +11,7 @@
         "type": "git",
         "url": "https://github.com/dcodeIO/JustMath.js.git"
     },
+    "bugs": "https://github.com/dcodeIO/JustMath.js/issues",
     "keywords": ["vector", "math", "2d"],
     "dependencies": {
     },

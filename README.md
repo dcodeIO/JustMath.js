@@ -51,7 +51,7 @@ Features
 * Shim compatible
 * [node.js](http://nodejs.org) compatible, also available via [npm](https://npmjs.org/package/justmath) (npm install justmath)
 * [Closure Compiler](https://developers.google.com/closure/compiler/) ADVANCED_OPTIMIZATIONS compatible (fully annotated)
-* Fully documented ([jsdoc3](https://github.com/jsdoc3/jsdoc))
+* Fully documented using [jsdoc3](https://github.com/jsdoc3/jsdoc)
 * Zero dependencies and prerequisites
 * Small footprint
 
@@ -100,8 +100,9 @@ Documentation
 
 Examples & Tests
 ----------------
-* [Run tests](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html) (requires working HTML5 Canvas)
+* [Run visual tests](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html) (requires working HTML5 Canvas)
 * [View source](https://github.com/dcodeIO/JustMath.js/blob/master/examples/Vec2.html)
+* [View deploy tests source](https://github.com/dcodeIO/JustMath.js/blob/master/tests/suite.js)
 
 License
 -------

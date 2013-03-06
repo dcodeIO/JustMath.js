@@ -538,9 +538,9 @@ limitations under the License.
     Vec2.det = function(v1, v2) {
         return v1.x*v2.y - v2.x*v1.y;
     };
-    
+
     /**
-     * @exports JustMath.Vec2
+     * @alias JustMath.Vec2
      **/
     JustMath.Vec2 = Vec2;
     

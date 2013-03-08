@@ -1,4 +1,4 @@
-JustMath.js - 2D Vector Math [![Build Status](https://travis-ci.org/dcodeIO/JustMath.js.png?branch=master)](https://travis-ci.org/dcodeIO/JustMath.js)
+![JustMath.js - 2D Vector Math](https://raw.github.com/dcodeIO/JustMath.js/master/JustMath.png)
 ============================
 An implementation of two dimensional vector math including a rich toolset for vector operations. It's also the math
 library behind [eSoccer](http://www.esoccer.me), a cross-platform multiplayer HTML5 game developed at [University of
@@ -98,7 +98,7 @@ Documentation
 -------------
 * [View documentation](http://htmlpreview.github.com/?http://github.com/dcodeIO/JustMath.js/master/docs/JustMath.html)
 
-Examples & Tests
+Examples & Tests [![Build Status](https://travis-ci.org/dcodeIO/JustMath.js.png?branch=master)](https://travis-ci.org/dcodeIO/JustMath.js)
 ----------------
 * [Run visual tests](http://htmlpreview.github.com/?https://github.com/dcodeIO/JustMath.js/master/examples/Vec2.html) (requires working HTML5 Canvas)
 * [View source](https://github.com/dcodeIO/JustMath.js/blob/master/examples/Vec2.html)

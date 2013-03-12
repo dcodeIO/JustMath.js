@@ -2,7 +2,7 @@
     "name": "justmath",
     "version": "1.0.1",
     "author": "Daniel Wirtz <dcode@dcode.io>",
-    "description": "An implementation of two dimensional vector math including a rich toolset for vector operations.",
+    "description": "JustMath.js: Two dimensional vector math including a rich toolset for vector operations.",
     "main": "JustMath.js",
     "repository": {
         "type": "git",
